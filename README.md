@@ -4,22 +4,36 @@ This library provides a robust and customizable GUI creation system for Roblox. 
 
 ---
 
+Here’s the updated **Table of Contents** with the new `Loadstring` section added at the top, including headers and an empty code block for you to fill in:
+
+---
+
 ## Table of Contents
-1. [CreateWindow](#createwindow)
-2. [CreateTab](#createtab)
-3. [CreateSection](#createsection)
-4. [AddLabel](#addlabel)
-5. [AddToggle](#addtoggle)
-6. [AddTextbox](#addtextbox)
-7. [AddSlider](#addslider)
-8. [AddButton](#addbutton)
-9. [AddKeybind](#addkeybind)
-10. [AddDropdown](#adddropdown)
-11. [AddSearchBox](#addsearchbox)
-12. [AddColorpicker](#addcolorpicker)
-13. [AddPersistence](#addpersistence)
-14. [CreateDesigner](#createdesigner)
-15. [Shared Functions](#shared-functions)
+1. [Loadstring](#loadstring)
+2. [CreateWindow](#createwindow)
+3. [CreateTab](#createtab)
+4. [CreateSection](#createsection)
+5. [AddLabel](#addlabel)
+6. [AddToggle](#addtoggle)
+7. [AddTextbox](#addtextbox)
+8. [AddSlider](#addslider)
+9. [AddButton](#addbutton)
+10. [AddKeybind](#addkeybind)
+11. [AddDropdown](#adddropdown)
+12. [AddSearchBox](#addsearchbox)
+13. [AddColorpicker](#addcolorpicker)
+14. [AddPersistence](#addpersistence)
+15. [CreateDesigner](#createdesigner)
+16. [Shared Functions](#shared-functions)
+
+---
+
+## Loadstring
+Initializes the library
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/benzonati/Pepsi-UI/refs/heads/main/source.luau"))
+```
 
 ---
 
